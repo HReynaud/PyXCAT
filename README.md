@@ -17,7 +17,7 @@ where `PROGRAM_PATH` is replaced with the path to your XCAT program folder. This
 ### Arguments:
 | Argument | Descrition |
 | ------------------------------ | --- |
-| `-s`,`--size`&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Integer to specify the size of the volume. The volume is always a cube centered on the torso, the size will change the resolution of the anatomy.|
+| `-s`,`--size`&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Integer to specify the size of the volume. The volume is always a cube centered on the torso, the size will change the resolution of the anatomy.|
 | `-t`, `--types`| Types of volumes to generate, can be CT, SEG (segmentation), NURBS and ATN (Atenuation). Pass as a list, ex. `CT, SEG` |
 | `-n`, `--name`| Base name for the generated files. Files will be named as `NAME_F_TYPE.nii.gz` where NAME is the base name, `F` is the frame index and `TYPE` is the type of the volume.|
 | `-o`, `--output`| Path where the files will be saved.|
@@ -37,7 +37,7 @@ where `PROGRAM_PATH` is replaced with the path to your XCAT program folder. This
 | Argument | Descrition |
 | ------------------------------ | --- |
 | `-c`, `--count`| Number of volumes to generate. |
-| `-s`,`--size`&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Integer to specify the size of the volume. The volume is always a cube centered on the torso, the size will change the resolution of the anatomy.|
+| `-s`,`--size`&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Integer to specify the size of the volume. The volume is always a cube centered on the torso, the size will change the resolution of the anatomy.|
 | `-t`, `--types`| Types of volumes to generate, can be CT, SEG (segmentation), NURBS and ATN (Atenuation). Pass as a list, ex. `CT, SEG` |
 | `-n`, `--name`| Base name for the generated files. Files will be named as `NAME_F_TYPE.nii.gz` where NAME is the base name, `F` is the frame index and `TYPE` is the type of the volume.|
 | `-o`, `--output`| Path where the files will be saved.|
