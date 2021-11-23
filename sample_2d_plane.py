@@ -164,7 +164,6 @@ if __name__ == '__main__':
 
     # Parse arguments
     args = get_args()
-    print(args)
 
     # Load the volume
     image = sitk.ReadImage(args.file)
